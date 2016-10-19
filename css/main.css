@@ -1,12 +1,13 @@
 
 html {
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
   background-color: #dbd6cf;
   border: 3px solid #595652;
-  box-sizing: inherit;
+  box-sizing: border-box;;
 }
 
 header {
@@ -19,7 +20,6 @@ h1 {
   text-align: center;
   color: #fff;
   margin: .3em;
-  padding: .5em .75em;
 }
 
 nav ul {
