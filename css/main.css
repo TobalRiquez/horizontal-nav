@@ -3,11 +3,16 @@ html {
   font-family: sans-serif;
   box-sizing: border-box;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   background-color: #dbd6cf;
   border: 3px solid #595652;
-  box-sizing: border-box;;
+  box-sizing: border-box;
 }
 
 header {
@@ -16,7 +21,7 @@ header {
 }
 
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: Bevan, serif;
   text-align: center;
   color: #fff;
   margin: .3em;
